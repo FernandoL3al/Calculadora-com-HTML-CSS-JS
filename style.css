@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.container{
+  background: #333;
+  height: 40em;
+  margin: 3em;
+  padding: 1em;
+}
+
+.screen{
+  width: 16.5em;
+  background: #453;
+  height: 5em;
+}
+
+.buttons{
+  height: 30em;
+  margin: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  gap: 8px;
+}
+
+.buton{
+  width: 60px;
+  height: 60px;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
