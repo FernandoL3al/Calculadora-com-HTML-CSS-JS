@@ -5,34 +5,122 @@
   border-radius: 10px;
 }
 
+body{
+  background-color: #111;
+}
+
 .container{
   background: #333;
-  height: 40em;
-  margin: 3em;
-  padding: 1em;
+  border: #ddd solid;
+  height: 84vh;
+  margin: 49px;
+  padding: 23px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1{
+  font-family: sans-serif;
+  text-shadow: 8px 2px 6px #111;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-left: 23px;
+  padding-bottom: 10px;
 }
 
 .screen{
-  width: 16.5em;
+  width: 300px;
   background: #453;
-  height: 5em;
+  border: #ddd solid;
+  align-self: center;
+  padding: 40px;
+  font-family: sans-serif;
+  text-shadow: 4px 5px 4px #111;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  box-shadow: 7px 6px 6px #111;
 }
 
 .buttons{
-  height: 30em;
-  margin: 2em 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap:wrap;
-  gap: 8px;
+  /* background: #a66; */
+  border: #ddd solid;
+  height: 30rem;
+  margin: 2rem 0;
+  display: grid;
+  gap: 5px;
 }
 
 .buton{
-  width: 60px;
-  height: 60px;
   background: #ddd;
+  color: #453;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 4px 2px 5px #111;
+  box-shadow: 4px 2px 6px #111;
+  font-weight: 600;
+  font-size: 30px;
+  border: #000 solid;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#one {
+  grid-area: 1;
+}
+#two{
+  grid-area: 1;
+}
+#three{
+  grid-area: 1;
+}
+#clean{
+  grid-area: 1;
+
+}
+#four{
+  grid-area: 2;
+}
+#five{
+  grid-area: 2;
+}
+#six{
+  grid-area: 2;
+}
+#seven{
+  grid-area: 2;
+}
+#eight{
+  grid-area: 3;
+}
+#nine{
+  grid-area: 3;
+}
+#zero{
+  grid-area: 3;
+}
+#add{
+  grid-area: 3;
+}
+#minus{
+  grid-area: 4;
+}
+#ex{
+  grid-area: 4;
+}
+#sli{
+  grid-area: 4;
+}
+#equal{
+  grid-area: 4;
+  background-color: #583333;
+  color: #ddd;
+}
+
+footer{
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: flex-end;
+  text-shadow: 8px 2px 6px #111;
 }
